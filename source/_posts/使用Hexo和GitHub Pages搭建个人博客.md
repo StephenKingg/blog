@@ -10,7 +10,7 @@
 2. 详细内容请访问[GitHub Pages Basics](https://help.github.com/articles/user-organization-and-project-pages/)。
 
 ### Step 2: 安装Hexo
-1. 安装Hexo之前，请确保计算机中已安装`Git`和`Node.js`，并且已配置了相应GitHub账号的ssh-key，可以参考我的教程：[How to integrate Sublime Text 3 with Git and GitHub](http://stephenkingg.github.io/)。
+1. 安装Hexo之前，请确保计算机中已安装`Git`和`Node.js`，并且已配置了相应GitHub账号的ssh-key，可以参考我的教程：[How to integrate Sublime Text 3 with Git and GitHub](https://stephenkingg.github.io/)。
 
 2. 执行以下命令即可完成Hexo的安装：
 `npm install hexo-cli -g`
