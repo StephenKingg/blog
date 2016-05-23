@@ -1,7 +1,7 @@
 # How to integrate Sublime Text 3 with Git and GitHub 
 ### Step 1: Git的安装与配置
-1.&ensp;从[Git官网](https://git-scm.com/)获取相应环境的安装文件并安装<br>
-2.&ensp;在Git的安装目录中打开git-bash.exe,执行以下命令：<br>
+&emsp;&emsp;1. 从[Git官网](https://git-scm.com/)获取相应环境的安装文件并安装<br>
+&emsp;&emsp;2. 在Git的安装目录中打开git-bash.exe,执行以下命令：<br>
 &emsp;&emsp;&emsp;`git config --global user.name "username"`<br>
 &emsp;&emsp;&emsp;`git config --global user.email "username@email.com"`<br>
 &emsp;运行后可以使用以下命令查看配置：<br>
