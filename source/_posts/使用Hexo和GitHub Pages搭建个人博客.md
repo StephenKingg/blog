@@ -29,19 +29,25 @@
 `type: git`
 `repo: git@github.com:username/username.github.io.git`
 `branch: master`(User Pages为master， Project Pages为gh-pages)
+
 2. 执行以下命令，安装deploy插件：
 `npm install hexo-deployer-git --save`
+
 3. 执行以下命令，即可完成部署：
 `hexo d -g`
+
 4. 在浏览器中输入`username.github.io`进行浏览。
 
 ### Step 5: 更改Hexo的主题
 1. 如果想使用其它主题，可以在Git Bash中执行以下命令：
 `git clone git@github.com:someone/theme-name themes/theme-name`
+
 2. 然后打开_config.yml文件，将`theme: landscape`修改为`theme: theme-name`，然后在Git Bash中执行以下命令：
 `hexo clean`
 `hexo d -g`
+
 3. 在浏览器中刷新页面看看效果~
+
 4. 关于Hexo主题的配置，请参考其它教程，这里就不详述了。
 
 ### Step 6: 将Hexo源文件上传到GitHub
@@ -52,10 +58,12 @@
 `git commit -a`
 `git pull origin master`
 `git push origin master`
+
 2. 这样就完成了文件上传。这里需要注意的是，clone下来的主题文件夹中(如themes/xxx/)，如果有`.git`目录，请先删除该目录，然后执行以上命令，否则该主题中的文件无法上传。
 
 ### Step 7: 在另一台计算机中同步Hexo博客
 1. 安装Git和Node.js，并配置GitHub账号的ssh-key。
+
 2. 任意选择一个文件夹，使用Git Bash执行以下命令：
 `git clone git@github.com:username/blog.git`
 `cd blog/`
@@ -69,11 +77,14 @@
 ### Step 8: 日常改动
 1. 建议先检查更新，将本地文件更新至最新版本：
 `git pull`
+
 2. 然后执行新建、修改等操作。
+
 3. 操作完成后，将文件同步至GitHub：
 `git add xxx`
 `git commit -m "descriptions"`
 `git push origin master`
+
 4. 然后再执行Hexo的生成文件和部署命令：
 `hexo d -g`
 
