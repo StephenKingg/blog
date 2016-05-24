@@ -1,6 +1,7 @@
 # How to integrate Sublime Text 3 with Git and GitHub
 
 ### Step 1: Git的安装与配置
+
 1. 从[Git官网](https://git-scm.com/)获取相应环境的安装文件并安装
 
 2. 在Git的安装目录中打开git-bash.exe,执行以下命令：
@@ -22,16 +23,19 @@ push.default参数主要设置执行push命令时的策略，主要选项有：
 **【注意】请妥善保管私钥，私钥外泄可能导致服务器上的代码泄漏!**
 
 ### Step 2: 连接GitHub
+
 1. 打开[GitHub](https://github.com/)主页并登录。
 
 2. 依次选择settings > SSH and GPG keys > New SSH key，添加一个title并将id_rsa.pub中的内容(可以直接拖到sublime中打开)复制到key中，然后点击Add SSH key按钮，即可添加成功。这样就可以使用git连接GitHub了。
 
 ### Step 3(可选)： 在sublime中添加Git插件
+
 1. 利用Package Control安装好Git插件后，依次选择Preferences > Package settings > Git > Setting - Default，将"git_command"中的false修改为cmd路径(这里用"C:/Program Files/Git/git-bash.exe")。
 
 2. 因本人习惯使用命令行，这里就不介绍sublime中Git插件的使用方法了。
 
 ### Step 4： 在sublime中添加Terminal插件
+
 1. 按照常规方式安装Terminal插件后，依次点击Preferences > Package Settings > Terminal > Settings – Default，为了确保插件升级后配置不丢失，建议将修改的配置都存储到Setting - User中。这里只需在Setting-User中添加以下内容即可：
 `{ "terminal": "C:\\Program Files\\Git\\git-bash.exe" }`
 
@@ -40,6 +44,7 @@ push.default参数主要设置执行push命令时的策略，主要选项有：
 `{ "keys": ["ctrl+shift+t"], "command": "open_terminal_project_folder" },`
 
 ### Step 5： Git试练
+
 1. 在sublime中，新建一个工作目录，如GitTest，在该目录中新建一个文件(如index.html)并打开，输入一些内容后，打开terminal，输入`git init`来初始化环境
 
 2. 输入`git add index.html`来添加新增或修改的文件
@@ -59,6 +64,7 @@ push.default参数主要设置执行push命令时的策略，主要选项有：
 9. 回到GitHub，刷新查看结果
 
 ### Step 6： 更多Git教程
+
 1. [Pro Git](https://git-scm.com/book/en/v2)
 
 2. [常用Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
