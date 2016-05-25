@@ -1,3 +1,8 @@
+---
+title: How to integrate Sublime Text 3 with Git and GitHub
+date: 2016-05-24 13:00:58
+tags: [Sublime Text, Git, GitHub]
+---
 # How to integrate Sublime Text 3 with Git and GitHub
 
 ### Step 1: Git的安装与配置

@@ -1,3 +1,8 @@
+---
+title: 使用Hexo和GitHub Pages搭建个人博客
+date: 2016-05-24 12:59:40
+tags: [Hexo, Github Pages]
+---
 # 使用Hexo和GitHub Pages搭建个人博客
 
 ### Step 1: 创建仓库

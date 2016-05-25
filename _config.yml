@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Freedom & Peace
+title: Good to Great
 subtitle:
-description:
+description: 
 author: Stephen King
 language:
-timezone:
+timezone: Asia/Hong_Kong
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
