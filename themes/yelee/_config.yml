@@ -7,7 +7,7 @@
 menu:
   home: /
   archives: /archives/
-  categories: /categories/
+  # categories: /categories/
   tags: /tags/
   about me: /about/
   # commonweal: /404.html
@@ -39,11 +39,10 @@ since: 2016
 ## https://github.com/hexojs/hexo-generator-feed
 
 subnav:
-  Email: "mailto: kingze1992@gmail.com"
+  # Email: "mailto: kingze1992@gmail.com"
   #新浪微博: "sina weibo"
   GitHub: "https://github.com/StephenKingg"
   V2EX: "https://www.v2ex.com/member/kingze1992"
-  #RSS: "/atom.xml"
   #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
@@ -69,6 +68,7 @@ subnav:
   #TiddlyWiki: ""
   #Tumblr: ""
   #_500px: ""
+  RSS: "/atom.xml"
 
 # >>> Conments 评论系统 <<<
 # Chose ONE as your comment system and keep others disable.
@@ -102,7 +102,7 @@ youyan:
 ## "5": show images form bg-1.jpg to bg-5.jpg in `/yelee/source/background/`
 ## "5": 显示`/yelee/source/background/`文件夹中 bg-1.jpg 到 bg-5.jpg 这5张图片
 ## "0": white-gray background | 淳朴灰白背景
-background_image: 5
+background_image: 10
 
 # Base Font Size | 字号调节
 base_font_size: 16  #px, 16 - 24
@@ -112,17 +112,17 @@ base_font_size: 16  #px, 16 - 24
 color_scheme: yilia
 
 highlight_style:
-  #on: true
-  inline_code: 1  # Value: 0 - 9 可选
-  code_block: 1  # Value: 0 - 4 
+  on: true
+  inline_code: 8  # Value: 0 - 9 可选
+  code_block: 2  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
   # 通过 code_block 切换内置代码高亮配色主题
 
 blockquote_style:
-  #on: true
-  blockquote: 1  # Value: 0 - 7 可选
+  on: true
+  blockquote: 2  # Value: 0 - 7 可选
   # 自定义文章「引用部分」的样式
 
 # Headings Style | 标题风格
@@ -143,7 +143,7 @@ toc: true
 
 # 目录中标题不换行
 # Keep TOC title on the same line | 
-toc_nowrap: false
+toc_nowrap: true
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
@@ -155,23 +155,22 @@ animate: true
 
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
-jquery_ui: false
+jquery_ui: true
 
 # >>> Small features | 小功能设置 <<<
 
 # 是否开启边栏多标签切换
 # Birdhouse button in left column
-tagcloud: true
+tagcloud: false
 
 # Blogroll, Link exchange | 友情链接
 friends:
   Hexo: https://hexo.io
-  GitHub: https://pages.github.com/
-  MOxFIVE: http://moxfive.xyz/
-#friends: false
+  GitHub: https://github.com/
+# friends: false
 
 #是否开启“关于我”。
-aboutme: Talk is cheap, show me the code.
+aboutme: Front-end Developer
 #aboutme: false
 
 # 是否在新窗口打开链接
@@ -196,8 +195,8 @@ mathjax: false
 share: 
   on: true
   baidu: true
-  addthis: false
-  addthis_pubid: "ra-56ff76c972fc0cf9"
+  addthis: true
+  addthis_pubid: "ra-57458c4ae95b8dd9"
   ## Go to www.addthis.com/dashboard to get your pubid (in src of Code)
   ## and customize AddThis share buttons
 
@@ -230,9 +229,10 @@ github_widget: false
 #       center-radar|center-simple|corner-indicator|flash|flat-top|
 #       loading-bar|mac-osx|minimal
 # color: black|blue|green|orange|pink|purple|red|silver|white|yellow|
+# 
 progressBar:
   on: true
-  type: "minimal"  # Keep Quotes | 保留引号避免出错
+  type: "flat-top"  # Keep Quotes | 保留引号避免出错
   color: blue
 
 CDN:

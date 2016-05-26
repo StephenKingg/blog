@@ -3,8 +3,8 @@ title: 使用Hexo和GitHub Pages搭建个人博客
 date: 2016-05-24 12:59:40
 tags: [Hexo, Github Pages]
 ---
-# 使用Hexo和GitHub Pages搭建个人博客
-
+资料整理：关于个人博客搭建。
+<!--more-->
 ### Step 1: 创建仓库
 
 1. 在GitHub中新建两个repository，分别命名为`username.github.io`和`blog`。前者用于存放deploy之后产生的文件，后者用于存放Hexo源文件。这里需要说明的是：
