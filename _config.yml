@@ -5,7 +5,7 @@
 # Site
 title: Good to Great
 subtitle:
-description: 
+description:
 author: Stephen King
 language:
 timezone: Asia/Hong_Kong
@@ -45,7 +45,7 @@ highlight:
 
 # Category & Tag
 default_category: uncategorized
-category_map: 
+category_map:
 tag_map:
 
 # Date / Time format
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yelee
+theme: cafe
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
